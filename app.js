@@ -16,3 +16,11 @@ function clean() {
 function back() {
     dispaly.value = dispaly.value.slice(0, -1);
 }
+
+function root(){
+    dispaly.value = Math.sqrt(dispaly.value);
+}
+
+function percent(){
+    dispaly.value = dispaly.value/100;
+}
